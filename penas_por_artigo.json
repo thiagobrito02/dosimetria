@@ -57,6 +57,12 @@
       "pena_min": 1,
       "pena_max": 4
     },
+    "155 4": {
+      "crime": "Furto qualificado",
+      "pena": "Reclusão de 2 a 8 anos e multa.",
+      "pena_min": 2,
+      "pena_max": 8
+    },
     "157": {
       "crime": "Roubo",
       "pena": "Reclusão de 4 a 10 anos e multa.",
