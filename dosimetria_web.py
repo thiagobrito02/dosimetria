@@ -64,10 +64,7 @@ pena_max_dias = anos_meses_para_dias(pena_max_dict["anos"], pena_max_dict["meses
 descricao_crime = info_artigo.get("crime", "")
 
 st.markdown(f"**Crime:** {descricao_crime}")
-st.markdown(f"**Pena cominada:** {pena_min_dict['anos']}a{pena_min_dict['meses']}m até {pena_max_dict['anos']}a{pena_max_dict['meses']}m")
-st.markdown(f"**Pena mínima:** {pena_min_dict['anos']} ano(s) e {pena_min_dict['meses']} mês(es)")
-st.markdown(f"**Pena máxima:** {pena_max_dict['anos']} ano(s) e {pena_max_dict['meses']} mês(es)")
-
+st.markdown(f"**Pena cominada:** {pena_min_dict['anos']} a {pena_min_dict['meses']}m até {pena_max_dict['anos']} a {pena_max_dict['meses']}m")
 
 # Circunstâncias judiciais (Art. 59 do CP)
 st.subheader("Circunstâncias Judiciais (Art. 59 CP)")
