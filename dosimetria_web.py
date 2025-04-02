@@ -54,12 +54,20 @@ artigos = sorted(base.keys(), key=lambda x: int(x.split()[0]) if x.split()[0].is
 artigo_escolhido = st.selectbox("Selecione o artigo penal", artigos)
 
 info_artigo = base[artigo_escolhido]
-pena_min = info_artigo.get("pena_min", 0)
-pena_max = info_artigo.get("pena_max", 0)
+#pena_min = info_artigo.get("pena_min", 0)
+#pena_max = info_artigo.get("pena_max", 0)"
+pena_min_dict = info_artigo.get("pena_min", {"anos": 0, "meses": 0})
+pena_max_dict = info_artigo.get("pena_max", {"anos": 0, "meses": 0})
+pena_min_dias = anos_meses_para_dias(pena_min_dict["anos"], pena_min_dict["meses"])
+pena_max_dias = anos_meses_para_dias(pena_max_dict["anos"], pena_max_dict["meses"])
+
 descricao_crime = info_artigo.get("crime", "")
 
 st.markdown(f"**Crime:** {descricao_crime}")
-st.markdown(f"**Pena cominada:** {pena_min} a {pena_max} anos")
+st.markdown(f"**Pena cominada:** {pena_min_dict['anos']}a{pena_min_dict['meses']}m até {pena_max_dict['anos']}a{pena_max_dict['meses']}m")
+st.markdown(f"**Pena mínima:** {pena_min_dict['anos']} ano(s) e {pena_min_dict['meses']} mês(es)")
+st.markdown(f"**Pena máxima:** {pena_max_dict['anos']} ano(s) e {pena_max_dict['meses']} mês(es)")
+
 
 # Circunstâncias judiciais (Art. 59 do CP)
 st.subheader("Circunstâncias Judiciais (Art. 59 CP)")
@@ -101,7 +109,8 @@ with col4:
 if st.button("Calcular Pena"):
     try:
         desfavoraveis = len(circunstancias)
-        anos_base, meses_base = aplicar_circunstancias(pena_min, pena_max, desfavoraveis)
+        #anos_base, meses_base = aplicar_circunstancias(pena_min, pena_max, desfavoraveis)"
+        anos_base, meses_base = aplicar_circunstancias(pena_min_dias / 360, pena_max_dias / 360, desfavoraveis)
         base_dias = anos_meses_para_dias(anos_base, meses_base)
 
         anos_prov, meses_prov = aplicar_agravantes_atenuantes(base_dias, agravantes, atenuantes)

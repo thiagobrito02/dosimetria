@@ -1,150 +1,153 @@
 {
-    "33": {
-      "crime": "Tráfico de drogas (Lei 11.343/2006)",
-      "pena": "Reclusão de 5 a 15 anos e pagamento de 500 a 1500 dias-multa.",
-      "pena_min": 5,
-      "pena_max": 15
-    },
-    "121": {
-      "crime": "Homicídio simples",
-      "pena": "Reclusão de 6 a 20 anos.",
-      "pena_min": 6,
-      "pena_max": 20
-    },
-    "121 2": {
-      "crime": "Homicídio qualificado",
-      "pena": "Reclusão de 12 a 30 anos.",
-      "pena_min": 12,
-      "pena_max": 30
-    },
-    "121 3": {
-      "crime": "Homicídio culposo",
-      "pena": "Detenção de 1 a 3 anos.",
-      "pena_min": 1,
-      "pena_max": 3
-    },
-    "129": {
-      "crime": "Lesão corporal",
-      "pena": "Detenção de 3 meses a 1 ano."
-    },
-    "129 1": {
-      "crime": "Lesão corporal de natureza grave",
-      "pena": "Reclusão de 1 a 5 anos.",
-      "pena_min": 1,
-      "pena_max": 5
-    },
-    "129 2": {
-      "crime": "Lesão corporal gravíssima",
-      "pena": "Reclusão de 2 a 8 anos.",
-      "pena_min": 2,
-      "pena_max": 8
-    },
-    "129 3": {
-      "crime": "Lesão corporal seguida de morte",
-      "pena": "Reclusão de 4 a 12 anos.",
-      "pena_min": 4,
-      "pena_max": 12
-    },
-    "147": {
-      "crime": "Ameaça",
-      "pena": "Detenção de 1 a 6 meses ou multa.",
-      "pena_min": 1,
-      "pena_max": 6
-    },
-    "155": {
-      "crime": "Furto",
-      "pena": "Reclusão de 1 a 4 anos e multa.",
-      "pena_min": 1,
-      "pena_max": 4
-    },
-    "155 4": {
-      "crime": "Furto qualificado",
-      "pena": "Reclusão de 2 a 8 anos e multa.",
-      "pena_min": 2,
-      "pena_max": 8
-    },
-    "157": {
-      "crime": "Roubo",
-      "pena": "Reclusão de 4 a 10 anos e multa.",
-      "pena_min": 4,
-      "pena_max": 10
-    },
-    "157 2": {
-      "crime": "Roubo com agravantes",
-      "pena": "Reclusão de 5 a 15 anos e multa.",
-      "pena_min": 5,
-      "pena_max": 15
-    },
-    "158": {
-      "crime": "Extorsão",
-      "pena": "Reclusão de 4 a 10 anos e multa.",
-      "pena_min": 4,
-      "pena_max": 10
-    },
-    "171": {
-      "crime": "Estelionato",
-      "pena": "Reclusão de 1 a 5 anos e multa.",
-      "pena_min": 1,
-      "pena_max": 5
-    },
-    "180": {
-      "crime": "Receptação",
-      "pena": "Reclusão de 1 a 4 anos e multa.",
-      "pena_min": 1,
-      "pena_max": 4
-    },
-    "213": {
-      "crime": "Estupro",
-      "pena": "Reclusão de 6 a 10 anos.",
-      "pena_min": 6,
-      "pena_max": 10
-    },
-    "213 1": {
-      "crime": "Estupro com lesão corporal grave",
-      "pena": "Reclusão de 8 a 12 anos.",
-      "pena_min": 8,
-      "pena_max": 12
-    },
-    "213 2": {
-      "crime": "Estupro seguido de morte",
-      "pena": "Reclusão de 12 a 30 anos.",
-      "pena_min": 12,
-      "pena_max": 30
-    },
-    "217 A": {
-      "crime": "Estupro de vulnerável",
-      "pena": "Reclusão de 8 a 15 anos.",
-      "pena_min": 8,
-      "pena_max": 15
-    },
-    "218 B": {
-      "crime": "Exploração sexual de vulnerável",
-      "pena": "Reclusão de 4 a 10 anos.",
-      "pena_min": 4,
-      "pena_max": 10
-    },
-    "288": {
-      "crime": "Associação criminosa",
-      "pena": "Reclusão de 1 a 3 anos.",
-      "pena_min": 1,
-      "pena_max": 3
-    },
-    "299": {
-      "crime": "Falsidade ideológica",
-      "pena": "Reclusão de 1 a 5 anos e multa.",
-      "pena_min": 1,
-      "pena_max": 5
-    },
-    "304": {
-      "crime": "Uso de documento falso",
-      "pena": "Reclusão de 2 a 6 anos e multa.",
-      "pena_min": 2,
-      "pena_max": 6
-    },
-    "311": {
-      "crime": "Adulteração de sinal identificador de veículo",
-      "pena": "Reclusão de 3 a 6 anos e multa.",
-      "pena_min": 3,
-      "pena_max": 6
+  "33": {
+    "crime": "Tráfico de drogas (Lei 11.343/2006)",
+    "pena": "Reclusão de 5 a 15 anos e pagamento de 500 a 1500 dias-multa.",
+    "pena_min": { "anos": 5, "meses": 0},
+    "pena_max": { "anos": 15, "meses": 0}  
+  },
+  "121": {
+    "crime": "Homicídio simples",
+    "pena": "Reclusão de 6 a 20 anos.",
+    "pena_min": { "anos": 6, "meses": 0 },
+    "pena_max": { "anos": 20, "meses": 0 }
+  },
+  "121 2": {
+    "crime": "Homicídio qualificado",
+    "pena": "Reclusão de 12 a 30 anos.",
+    "pena_min": { "anos": 12, "meses": 0 },
+    "pena_max": { "anos": 30, "meses": 0
     }
+  },
+  "121 3": {
+    "crime": "Homicídio culposo",
+    "pena": "Detenção de 1 a 3 anos.",
+    "pena_min": { "anos": 1, "meses": 0 },
+    "pena_max": { "anos": 3, "meses": 0 }
+  },
+  "129": {
+    "crime": "Lesão corporal",
+    "pena": "Detenção de 3 meses a 1 ano.",
+    "pena_min": { "anos": 0, "meses": 3 },
+    "pena_max": { "anos": 1, "meses": 0 }
+  },
+  "129 1": {
+    "crime": "Lesão corporal de natureza grave",
+    "pena": "Reclusão de 1 a 5 anos.",
+    "pena_min": { "anos": 1, "meses": 0 },
+    "pena_max": { "anos": 5, "meses": 0 }
+  },
+  "129 2": {
+    "crime": "Lesão corporal gravíssima",
+    "pena": "Reclusão de 2 a 8 anos.",
+    "pena_min": { "anos": 2, "meses": 0 },
+    "pena_max": { "anos": 8, "meses": 0 }
+  },
+  "129 3": {
+    "crime": "Lesão corporal seguida de morte",
+    "pena": "Reclusão de 4 a 12 anos.",
+    "pena_min": { "anos": 4, "meses": 0 },
+    "pena_max": { "anos": 12, "meses": 0 }
+  },
+  "147": {
+    "crime": "Ameaça",
+    "pena": "Detenção de 1 a 6 meses ou multa.",
+    "pena_min": { "anos": 0, "meses": 1 },
+    "pena_max": { "anos": 0, "meses": 6 }
+  },
+  "155": {
+    "crime": "Furto",
+    "pena": "Reclusão de 1 a 4 anos e multa.",
+    "pena_min": {"anos": 1, "meses": 0 },
+    "pena_max": { "anos": 4, "meses": 0 }
+  },
+  "155 4": {
+    "crime": "Furto qualificado",
+    "pena": "Reclusão de 2 a 8 anos e multa.",
+    "pena_min": {"anos": 2, "meses": 0 },
+    "pena_max": { "anos": 8, "meses": 0 }
+  },
+  "157": {
+    "crime": "Roubo",
+    "pena": "Reclusão de 4 a 10 anos e multa.",
+    "pena_min": {"anos": 4, "meses": 0 },
+    "pena_max": { "anos": 10, "meses": 0 }
+  },
+  "157 2": {
+    "crime": "Roubo com agravantes",
+    "pena": "Reclusão de 5 a 15 anos e multa.",
+    "pena_min": {"anos": 5, "meses": 0 },
+    "pena_max": { "anos": 15, "meses": 0 }
+  },
+  "158": {
+    "crime": "Extorsão",
+    "pena": "Reclusão de 4 a 10 anos e multa.",
+    "pena_min": {"anos": 4, "meses": 0 },
+    "pena_max": { "anos": 10, "meses": 0 }
+  },
+  "171": {
+    "crime": "Estelionato",
+    "pena": "Reclusão de 1 a 5 anos e multa.",
+    "pena_min": {"anos": 1, "meses": 0 },
+    "pena_max": { "anos": 5, "meses": 0 }
+  },
+  "180": {
+    "crime": "Receptação",
+    "pena": "Reclusão de 1 a 4 anos e multa.",
+    "pena_min": {"anos": 1, "meses": 0 },
+    "pena_max": { "anos": 4, "meses": 0 }
+  },
+  "213": {
+    "crime": "Estupro",
+    "pena": "Reclusão de 6 a 10 anos.",
+    "pena_min": {"anos": 6, "meses": 0 },
+    "pena_max": { "anos": 10, "meses": 0 }
+  },
+  "213 1": {
+    "crime": "Estupro com lesão corporal grave",
+    "pena": "Reclusão de 8 a 12 anos.",
+    "pena_min": {"anos": 8, "meses": 0 },
+    "pena_max": {"anos": 12, "meses": 0 }
+  },
+  "213 2": {
+    "crime": "Estupro seguido de morte",
+    "pena": "Reclusão de 12 a 30 anos.",
+    "pena_min": {"anos": 12, "meses": 0 },
+    "pena_max": {"anos": 30, "meses": 0 }
+  },
+  "217 A": {
+    "crime": "Estupro de vulnerável",
+    "pena": "Reclusão de 8 a 15 anos.",
+    "pena_min": {"anos": 8, "meses": 0 },
+    "pena_max": {"anos": 15, "meses": 0 }
+  },
+  "218 B": {
+    "crime": "Exploração sexual de vulnerável",
+    "pena": "Reclusão de 4 a 10 anos.",
+    "pena_min": {"anos": 4, "meses": 0 },
+    "pena_max": {"anos": 10, "meses": 0 }
+  },
+  "288": {
+    "crime": "Associação criminosa",
+    "pena": "Reclusão de 1 a 3 anos.",
+    "pena_min": {"anos": 1, "meses": 0 },
+    "pena_max": {"anos": 3, "meses": 0 }
+  },
+  "299": {
+    "crime": "Falsidade ideológica",
+    "pena": "Reclusão de 1 a 5 anos e multa.",
+    "pena_min": {"anos": 1, "meses": 0 },
+    "pena_max": {"anos": 5, "meses": 0 }
+  },
+  "304": {
+    "crime": "Uso de documento falso",
+    "pena": "Reclusão de 2 a 6 anos e multa.",
+    "pena_min": {"anos": 2, "meses": 0 },
+    "pena_max": {"anos": 6, "meses": 0 }
+  },
+  "311": {
+    "crime": "Adulteração de sinal identificador de veículo",
+    "pena": "Reclusão de 3 a 6 anos e multa.",
+    "pena_min": {"anos": 3, "meses": 0 },
+    "pena_max": {"anos": 6, "meses": 0 }
   }
+}
